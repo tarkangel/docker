@@ -91,3 +91,6 @@ We run our firstr container:
 ```
 ~$ docker run hello-world 
 ```
+
+![image](https://user-images.githubusercontent.com/83728906/182758880-66f814d4-ac81-43e1-8a61-392a17ad4a57.png)
+

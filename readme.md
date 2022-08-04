@@ -59,8 +59,13 @@ sudo usermod -aG docker $USER
  ```
 pip3 install --user docker-compose
 ```
+#### Download Docker for Windows and click active on expose daemon on tcp
+
+![image](https://user-images.githubusercontent.com/83728906/182758546-2cfc9116-3996-4bb9-83a3-df052019f72f.png)
+
 Configure WSL to Connect to Docker for Windows
 #### The next step is to configure WSL so that it knows how to connect to the remote Docker daemon running in Docker for Windows (remember, it’s listening on port 2375).
+
 
 we need to add your current user to the ‘docker’ group so that you are allowed to interface with the Docker Engine which will be running on your system as root.
 ```

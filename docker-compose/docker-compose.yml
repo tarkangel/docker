@@ -4,7 +4,7 @@ services:
   app:
     image: b692a91e4e15
     ports:
-      - "8080:8080"
+      - "8080:80"
 
     tty: true
 
